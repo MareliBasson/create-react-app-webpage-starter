@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Grid, Row, Col } from "react-bootstrap";
-import "./header.css";
+import "./footer.css";
 
-class Header extends Component {
+class Footer extends Component {
   render() {
     return (
-      <div className="rw-page-header">
+      <div className="rw-page-footer">
         <Grid>
           <Row>
-            <Col md={12}>Page Header</Col>
+            <Col md={12}>Page Footer</Col>
           </Row>
         </Grid>
       </div>
@@ -16,4 +16,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Footer;

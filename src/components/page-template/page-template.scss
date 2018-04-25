@@ -1,0 +1,10 @@
+.rw-page {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rw-page-content {
+  padding: 20px 0;
+  flex: 1;
+}
