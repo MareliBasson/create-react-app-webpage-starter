@@ -4,7 +4,7 @@ import "./home.css";
 
 class HomePage extends Component {
   render() {
-    return <PageTemplate />;
+    return <PageTemplate pageHead="Home Page" />;
   }
 }
 
