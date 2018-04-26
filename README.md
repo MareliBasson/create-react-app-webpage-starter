@@ -1,8 +1,9 @@
-# react-website
-Building a website using react for my portfolio.
+# create-react-app-webpage-starter
 
-I'll be using this PSD template as the visual design: https://creativemarket.com/VigitalArt/68551-Oxxo-Multipurpose-PSD-Template
+Are you a React beginner who just wants to quickly build a simple website using ReactJS, Sass, Bootstrap and some basic page navigation?
 
-All interactions and functionality will be implemented at my discretion as the design includes no guides for it.
+**Then this project will get you started quickly.**
 
-
+* This is a project that's been created using Create-React-App. I've added CSS Preprocessing(Sass) and Bootstrap.
+* A few components and pages have been added to start building in.
+* React Router(v4) has been added to help with site navigation - a menu component with a couple of links have been added as a starting point.
