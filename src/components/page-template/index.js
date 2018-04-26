@@ -16,7 +16,7 @@ class PageTemplate extends Component {
         <div className="rw-page-content">
           <Grid>
             <Row>
-              <Col md={12} xsHidden>
+              <Col md={12}>
                 <h1>{pageHead}</h1>
                 {children}
               </Col>
