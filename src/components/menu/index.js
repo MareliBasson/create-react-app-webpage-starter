@@ -1,13 +1,20 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 import "./menu.css";
 
 class Menu extends Component {
   render() {
     return (
-      <div className="rw-page-header">
-        <a href="#">menu item 1</a>
-        <a href="#">menu item 2</a>
-        <a href="#">menu item 3</a>
+      <div className="rw-page-menu">
+        <NavLink activeClassName="active" exact to="/">
+          Home
+        </NavLink>
+        <NavLink activeClassName="active" to="/page1">
+          Page 1
+        </NavLink>
+        <NavLink activeClassName="active" to="/page2">
+          Page 2
+        </NavLink>
       </div>
     );
   }
