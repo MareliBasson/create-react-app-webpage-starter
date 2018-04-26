@@ -8,7 +8,10 @@ class Footer extends Component {
       <div className="rw-page-footer">
         <Grid>
           <Row>
-            <Col md={12}>Page Footer</Col>
+            <Col md={3}>Footer Column</Col>
+            <Col md={3}>Footer Column</Col>
+            <Col md={3}>Footer Column</Col>
+            <Col md={3}>Footer Column</Col>
           </Row>
         </Grid>
       </div>
