@@ -6,4 +6,9 @@
 
 .rw-page-content {
   padding: 20px 0;
-  flex: 1; }
+  flex: 1;
+  font-size: 14px; }
+  .rw-page-content h1 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px; }

@@ -4,7 +4,15 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .rw-page-content {
   padding: 20px 0;
   flex: 1;
+  font-size: 14px;
+
+  h1 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
 }

@@ -9,8 +9,8 @@ class Header extends Component {
       <div className="rw-page-header">
         <Grid>
           <Row>
-            <Col md={12}>
-              Page Header
+            <Col md={12} className="rw-page-header__container">
+              <div className="rw-page-logo">Page Logo</div>
               <Menu />
             </Col>
           </Row>
