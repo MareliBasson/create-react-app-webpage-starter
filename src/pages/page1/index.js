@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import PageTemplate from "components/page-template";
-import "./home.css";
+import "./page1.css";
 
-class HomePage extends Component {
+class PageOne extends Component {
   render() {
     return (
-      <PageTemplate pageHead="Home Page">
+      <PageTemplate pageHead="Page 1">
         <p>Some text goes here</p>
       </PageTemplate>
     );
   }
 }
 
-export default HomePage;
+export default PageOne;
