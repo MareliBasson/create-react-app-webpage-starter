@@ -1,4 +1,4 @@
-# create-react-app-webpage-starter
+# react-boilerplate-site-with-bootstrap
 
 Are you a React beginner who just wants to quickly build a simple website using ReactJS, Sass, Bootstrap and some basic page navigation?
 
